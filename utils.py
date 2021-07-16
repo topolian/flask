@@ -20,7 +20,7 @@ def read_requirements_txt():
     with open("requirements.txt", "r") as txt_file:
         return txt_file.read()
 
-def making_users(users_numb=20):
+def making_users(users_numb=10):
     fake = Faker()
     user = ''
 
